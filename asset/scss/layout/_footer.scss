@@ -1,0 +1,105 @@
+.footer{
+    position: relative;
+    height: 600px;
+    padding: 50px 50px 40px;
+    background: #090909;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    @include tablet{
+        height: auto;
+        padding-right: 20px;
+        padding-left: 20px
+    }
+    .footer-top{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        text-align: left;
+        @include mobile{
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+    .category{
+        display: flex;
+        justify-content: space-between;
+        gap: 7vw;
+        @include tablet{
+            width: auto;
+            flex-direction: column;
+            grid-column-gap: 0px;
+            grid-row-gap: 6vw
+        }
+        @include mobile{
+            order: 2;
+        }
+    }
+    .title{
+        font-size: 32px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    .category-item{
+        margin-bottom: 10px;
+        li:nth-child(1){
+            display: block;
+            color: #aaa;
+            line-height: 2;
+        }
+        li:nth-child(2){
+            display: block;
+            color: #aaa;
+            line-height: 2;
+        }
+        .link-site{
+            display: block;
+            color: #aaa;
+            line-height: 2;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .footer-logo{
+        @include mobile{
+            order: 1;
+        }
+    }
+
+    .footer-bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #aaa;
+        font-size: 14px;
+        @include mobile{
+            flex-direction: column;
+            gap: 20px;
+            align-items: flex-start;
+        }
+    }
+    .footer-logo{
+        width: 120px;
+        height: 120px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .link-more{
+        width: 110px;
+        height: 20px;
+        margin: 5px;
+        display: block;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }           
+    }   
+}

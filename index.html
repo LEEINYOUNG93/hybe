@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HYBE</title>
+  <link rel="stylesheet" href="./asset/css/style.css">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="16x16">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/ScrollTrigger.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  <script defer src="./asset/js/script.js"></script>
+</head>
+
+<body>
+  <div id="loading">
+        <div class="loading-txt">
+            <div class="wrap">
+                <span class="first">H</span>
+                <span class="sec">Y</span>
+                <span class="sec">B</span>
+                <span class="sec">E</span>
+            </div>
+        </div>
+  </div>
+
+<div class="wrapper">
+    <header class="header">
+        <h1 class="logo">
+            <span class="blind">하이브</span>
+            <a href="" class="link-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="93" height="18" viewBox="0 0 93 18">
+                    <g fill="none" fill-rule="evenodd">
+                        <g fill="#FFF">
+                            <g>
+                                <path d="M14.096 7.098V0h3.685v17.856h-3.685v-7.272H3.686v7.272H0V0h3.686v7.098h10.41zM40.171 0h4.184l-8.194 11.157v6.7h-3.685v-6.7L24.232 0h4.383l5.778 7.77L40.171 0zM65.2 0c1.693 0 2.59.896 2.59 2.59v4.483c0 .97-.797 1.768-1.794 1.768.997 0 1.794.797 1.794 1.768v4.657c0 1.694-.897 2.59-2.59 2.59H49.933V0H65.2zM53.594 7.222H64.13v-3.96H53.594v3.96zm0 7.372H64.13v-4.16H53.594v4.16zM92.495 3.262H78.573v3.885h13.548v3.263H78.573v4.184h13.922v3.262H74.888V0h17.607v3.262z" transform="translate(-30 -31) translate(30 31)"/>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </a>
+        </h1>
+        <div class="lang">
+            <a href="" class="link-lang">EN</a>
+            <span>/</span>
+            <a href="" class="link-lang">KR</a>
+        </div>
+        <div class="menu">
+            <div class="open-btn">
+                <a href="" class="btn-open">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);"><defs><clipPath id="__lottie_element_24"><rect width="50" height="50" x="0" y="0"></rect></clipPath></defs><g clip-path="url(#__lottie_element_24)"><g transform="matrix(1,0,0,1,25,19)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="2" d=" M18,0 C18,0 -18,0 -18,0"></path></g></g><g transform="matrix(1,0,0,1,25,31)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="2" d=" M18,0 C18,0 -18,0 -18,0"></path></g></g></g></svg>
+                </a>
+            </div>
+        </div>  
+        <nav class="side-nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="" class="menu-item">COMPANY</a>
+                    <ul class="sub-menu">
+                        <li class="sub-menu-item">
+                            <a href="" class="link-sub">기업소개</a>
+                        </li>
+                        <li class="sub-menu-item">
+                            <a href="" class="link-sub">아티스트</a>
+                        </li>
+                        <li class="sub-menu-item">
+                            <a href="" class="link-sub">비즈니스</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="menu-item">INVESRTORS</a>
+                    <ul class="sub-menu">
+                        <li class="sub-menu-item">
+                            <a href="" class="link-sub">IR자료실</a>
+                        </li>
+                        <li class="sub-menu-item">
+                            <a href="" class="link-sub">IR행사일정</a>
+                        </li>
+                        <li class="sub-menu-item">
+                            <a href="" class="link-sub">주가정보</a>
+                        </li>
+                        <li class="sub-menu-item">
+                            <a href="" class="link-sub">재무정보</a>
+                        </li>
+                        <li class="sub-menu-item">
+                            <a href="" class="link-sub">공시정보</a>
+                        </li>
+                        <li class="sub-menu-item">
+                            <a href="" class="link-sub">공고</a>
+                        </li>
+                        <li class="sub-menu-item">
+                            <a href="" class="link-sub">기업지배구조</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="menu-item">NEWS</a>
+                    <ul class="sub-menu">
+                        <li class="sub-menu-item">
+                            <a href="" class="link-sub">소식</a>
+                        </li>
+                        <li class="sub-menu-item">
+                            <a href="" class="link-sub">공지사항</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="menu-item">CAREERS</a>
+                    <ul class="sub-menu">
+                        <li class="sub-menu-item">
+                            <a href="" class="link-sub">HYBE DNA</a>
+                        </li>
+                        <li class="sub-menu-item">
+                            <a href="" class="link-sub">CAREERS</a>
+                        </li>
+                    </ul>
+                </li>
+                <div class="close-btn">
+                    <div class="exit">
+                        <a href="" class="btn-close">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);"><defs><clipPath id="__lottie_element_31"><rect width="50" height="50" x="0" y="0"></rect></clipPath></defs><g clip-path="url(#__lottie_element_31)"><g transform="matrix(0.7071067690849304,0.7071067690849304,-0.7071067690849304,0.7071067690849304,25,25)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="2" d=" M18,0 C18,0 -18,0 -18,0"></path></g></g><g transform="matrix(0.7071067690849304,-0.7071067690849304,0.7071067690849304,0.7071067690849304,25,25)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="2" d=" M18,0 C18,0 -18,0 -18,0"></path></g></g></g></svg>
+                        </a>
+                    </div>
+                </div>
+            </ul> 
+        </nav>
+    </header>
+   
+    <main id="container">
+        <section class="sc-visual">
+            <div class="visual-content">
+                  <h2 class="title">
+                    <div class="title-list">
+                        <span class="title-item">BTS</span>
+                        <span class="title-item">LEE HYUN</span>
+                        <span class="title-item">LE SSERAFIM</span>
+                        <span class="title-item">NewJeans</span>
+                        <span class="title-item">SEVENTEEN</span>
+                        <span class="title-item">ENHYPEN</span>
+                        <span class="title-item">TXT</span>
+                    </div>
+                     HYBE ARTIST
+                  </h2>                
+            </div>
+
+            <div class="visual-bg">
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/7919f8103325509.602443c85316d.png" alt="BE앨범이미지">
+            </div>  
+        </section> <!-- visual -->
+        <section class="sc-intro">
+            <div class="intro-title">
+                <h2 class="title">
+                    <span class="effect"><span class="em-txt">HYBE</span> is committed to satisfying</span>
+                    <span class="effect">customers  with the 'content' leading the</span>
+                    <span class="effect"><span class="em-txt">global trend and our 'fans'</span></span>
+                </h2>
+            </div>
+        </section> <!-- intro -->
+        <section class="sc-goods-type">
+            <h2 class="blind">굿즈종류영역</h2>
+            <div class="type-list">
+                <div class="type-item">
+                    <h3 class="sub-title">MUSEUM SHOP</h3>
+                    <div class="type-img">
+                        <img src="https://hybeinsight.com/assets/img/museum/img_shop1.jpg" alt="MUSEUM SHOP이미지">
+                    </div>
+                    <a href="" class="link-type">
+                        <p>Site Shortcuts</p>
+                        <img src="https://uploads-ssl.webflow.com/6200f5ba452a41a0ea480abc/625962f390a5efcc61d8fc1b_Arrow%201.svg" loading="lazy" alt="" class="arrow-icon">
+                    </a>
+                </div>
+                <div class="type-item">
+                    <h3 class="sub-title">UPCYCLING LAB</h3>
+                    <div class="type-img">
+                        <img src="https://hybeinsight.com/assets/img/museum/img_shop2.jpg" alt="UPCYCLING LAB이미지">
+                    </div>
+                    <a href="" class="link-type">
+                        <p>Site Shortcuts</p>
+                        <img src="https://uploads-ssl.webflow.com/6200f5ba452a41a0ea480abc/625962f390a5efcc61d8fc1b_Arrow%201.svg" loading="lazy" alt="" class="arrow-icon">
+                    </a>
+                </div>
+                <div class="type-item">
+                    <h3 class="sub-title">HIVE INSIGHT</h3>
+                    <div class="type-img">
+                        <img src="https://magazine.brique.co/wp-content/uploads/2021/05/dfaf992b-%ED%95%98%EC%9D%B4%EB%B8%8C-%EC%9D%B8%EC%82%AC%EC%9D%B4%ED%8A%B8-hybe-insight.jpg" alt="HIVE INSIGHT이미지">
+                    </div>
+                    <a href="" class="link-type">
+                        <p>Site Shortcuts</p>
+                        <img src="https://uploads-ssl.webflow.com/6200f5ba452a41a0ea480abc/625962f390a5efcc61d8fc1b_Arrow%201.svg" loading="lazy" alt="" class="arrow-icon">
+                    </a>
+                </div>
+            </div>
+        </section><!-- goods-type -->
+        <section class="sc-view">
+            <div class="view-inner">
+                <div class="text-area">
+                    <div class="txt1">The world's leading entertainment lifestyle platform based on music.</div>
+                    <a href="" class="link-view">
+                        <p class="txt2">ABOUT HYBE ARTISTS</p>
+                        <img src="https://uploads-ssl.webflow.com/6200f5ba452a41a0ea480abc/625962f390a5efcc61d8fc1b_Arrow%201.svg" loading="lazy" alt="화살표아이콘" class="arrow-icon">
+                    </a>
+                </div>
+                <div class="img-area">
+                    <div class="img-list">
+                        <h2 class="title">WE BELIEVE IN MUSIC</h2>
+                        <div class="img-item">
+                            <div class="img item01">
+                                <img src="./asset/images/img01.png" alt="bts앨범커버">
+                            </div>
+                            <div class="img item02">
+                                <img src="./asset/images/img02.png" alt="르세라핌 앨범커버">
+                            </div>
+                            <div class="img item03">
+                                <img src="./asset/images/img03.png" alt="뉴진스 앨범커버">
+                            </div>
+                            <div class="img item04">
+                                <img src="./asset/images/img04.png" alt="세븐틴 앨범커버">
+                            </div>
+                            <div class="img item05">
+                                <img src="./asset/images/img05.png" alt="엔하이픈 앨범커버">
+                            </div>
+                            <div class="item06">
+                                <img src="./asset/images/img06.png" alt="프로미스나인 앨범커버">
+                            </div>
+                            <div class="item07">
+                                <img src="./asset/images/img07.png" alt="bts앨범커버">
+                            </div>
+                            <div class="item08">
+                                <img src="./asset/images/img08.png" alt="르세라핌 앨범커버">
+                            </div>
+                            <div class="item09">
+                                <img src="./asset/images/img09.png" alt="하이브로고_포인트">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- view -->
+
+        <section class="sc-artist">
+            <h2 class="title">OUR HYBE<br>ARTIST</h2>
+            <div class="artist-list">
+                <div class="artist-left">
+                    <a href="" class="link-artist">HYBE ACTOR</a>
+                </div>
+                <div class="artist-right">
+                    <div class="artist-item">
+                        <div class="txt-box">
+                            <h3>LEE HYUN</h3>
+                            <div class="text">
+                                <p><em>출생</em>1983.11.08 전갈자리,돼지띠</p>
+                                <p><em>나이</em>40세, 만38세</p>
+                                <p><em>소속그룹</em>에이트,옴므</p>
+                                <p><em>소속사</em>빅히트 뮤직</p>
+                                <p><em>신체</em>175cm, 64kg</p>
+                                <p><em>데뷔</em>2007년 에이트 1집 앨범 [The First]</p>
+                            </div>
+                            <a href="" class="link-more">Youtube & Homepage
+                                <img src="https://uploads-ssl.webflow.com/6200f5ba452a41a0ea480abc/625962f390a5efcc61d8fc1b_Arrow%201.svg" loading="lazy" alt="화살표아이콘" class="arrow-icon">
+                            </a>
+                        </div>
+                        <div class="img-box">
+                            <img src="https://img.seoul.co.kr//img/upload/2021/03/29/SSI_20210329102151.jpg" alt="이현이미지">
+                        </div>
+                    </div>
+                    <div class="artist-item reverse">
+                        <div class="txt-box">
+                            <h3>ZICO</h3>
+                            <div class="text">
+                                <p><em>출생</em>1992.09.14 천칭자리,원숭이띠</p>
+                                <p><em>나이</em>31세, 만30세</p>
+                                <p><em>소속그룹</em>블락비</p>
+                                <p><em>소속사</em>KOZ 엔터테인먼트</p>
+                                <p><em>신체</em>182cm, 65kg</p>
+                                <p><em>데뷔</em>2011년 블락비 싱글 앨범 [Do U Wanna B?]</p>
+                            </div>
+                            <a href="" class="link-more">Youtube & Homepage
+                                <img src="https://uploads-ssl.webflow.com/6200f5ba452a41a0ea480abc/625962f390a5efcc61d8fc1b_Arrow%201.svg" loading="lazy" alt="화살표아이콘" class="arrow-icon">
+                            </a>
+                        </div>
+                        <div class="img-box">
+                            <img src="https://d6ehjqrqtzoun.cloudfront.net/1edc5ac5-8c20-4cbd-bee7-9c3ceb81328c.jpg" alt="지코이미지">
+                        </div>
+                    </div>
+                    <div class="artist-item">
+                        <div class="txt-box">
+                            <h3>MIN HYUN</h3>
+                            <div class="text">
+                                <p><em>출생</em>1995.08.09 사자자리,돼지띠</p>
+                                <p><em>나이</em>28세, 만27세</p>
+                                <p><em>소속그룹</em>뉴이스트,Wanna One</p>
+                                <p><em>소속사</em>플레디스</p>
+                                <p><em>신체</em>181cm, 67kg</p>
+                                <p><em>데뷔</em>2012년 뉴이스트 싱글 앨범 [FACE]</p>
+                            </div>
+                            <a href="" class="link-more">Youtube & Homepage
+                                <img src="https://uploads-ssl.webflow.com/6200f5ba452a41a0ea480abc/625962f390a5efcc61d8fc1b_Arrow%201.svg" loading="lazy" alt="화살표아이콘" class="arrow-icon">
+                            </a>
+                        </div>
+                        <div class="img-box">
+                            <img src="https://pbs.twimg.com/media/FXYv8hUaAAE684W?format=jpg&name=large" alt="황민현이미지">
+                        </div>
+                    </div>
+                    <div class="artist-item reverse">
+                        <div class="txt-box">
+                            <h3>Nana</h3>
+                            <div class="text">
+                                <p><em>출생</em>1991.09.14 처녀자리,양띠</p>
+                                <p><em>나이</em>32세, 만31세</p>
+                                <p><em>소속그룹</em>애프터스쿨,오렌지캬라멜</p>
+                                <p><em>소속사</em>플레디스</p>
+                                <p><em>신체</em>171cm, 48kg</p>
+                                <p><em>데뷔</em>2009년 애프터스쿨 싱글 앨범 [너 때문에]</p>
+                            </div>
+                            <a href="" class="link-more">Youtube & Homepage
+                                <img src="https://uploads-ssl.webflow.com/6200f5ba452a41a0ea480abc/625962f390a5efcc61d8fc1b_Arrow%201.svg" loading="lazy" alt="화살표아이콘" class="arrow-icon">
+                            </a>
+                        </div>
+                        <div class="img-box">
+                            <img src="https://obj-kr.thewiki.kr/data/4e616e614c696d5f50726f66696c652e6a7067.jpg" alt="나나이미지">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="link-hybe">MORE HYBE ARTISTS
+                <img src="https://uploads-ssl.webflow.com/6200f5ba452a41a0ea480abc/625962f390a5efcc61d8fc1b_Arrow%201.svg" loading="lazy" alt="화살표아이콘" class="arrow-icon">
+            </a>
+        </section><!-- artist -->
+
+        <section class="sc-new">
+            <h2 class="title">
+                <p class="line">The</p>
+                <p class="line">Astronaut</p>
+            </h2>
+            <div class="new-img">
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/11ecff126216661.6128bfd52094e.jpg" alt="블루투스 스피커">
+            </div>
+            <a href="" class="link-new">
+                <p>NEW ALBUM</p>
+                <img src="https://uploads-ssl.webflow.com/6200f5ba452a41a0ea480abc/625962f390a5efcc61d8fc1b_Arrow%201.svg" loading="lazy" alt="화살표아이콘" class="arrow-icon">
+            </a>
+        </section> <!-- new -->
+    </main>
+    <footer class="footer">
+        <div class="footer-top">
+            <nav class="category">
+                <div class="category-list">
+                    <h3 class="title">Site</h3>
+                    <ul class="category-item">
+                        <li><a href="" class="link-site">HYBE</a></li>
+                        <li><a href="" class="link-site">WEVERSE COMPANY</a></li>
+                        <li><a href="" class="link-site">HYBE INSIGHT</a></li>
+                    </ul>
+                </div>
+                <div class="category-list">
+                    <h3 class="title">Faimli</h3>
+                    <ul class="category-item">
+                        <li><a href="" class="link-site">BIGHIT MUSIC</a></li>
+                        <li><a href="" class="link-site">BELIFE LAB</a></li>
+                        <li><a href="" class="link-site">SOURCE MUSIC</a></li>
+                        <li><a href="" class="link-site">AOOR</a></li>
+                        <li><a href="" class="link-site">HYBE LABELS</a></li>
+                    </ul>
+                </div>
+                <div class="category-list">
+                    <h3 class="title">Social</h3>
+                    <ul class="category-item">
+                        <li><a href="" class="link-site">Facebook</a></li>
+                        <li><a href="" class="link-site">Youtube</a></li>
+                        <li><a href="" class="link-site">Instagram</a></li>
+                    </ul>   
+                </div>
+                <address class="category-list">
+                    <h3 class="title">Contact</h3>
+                    <ul class="category-item">
+                        <li>42 Hangang-daero, Yongsan-gu,</li>
+                        <li>Seoul (Hangang-ro 3-ga)</li>
+                        <li><a href="" class="tel link-site">Tel. +82 02 34440105</a></li>
+                        <li><a href="" class="mail link-site">careers_privacy@hybecorp.com</a></li>
+                        <li><a href="mailto:infotecnico@icam-inox.com" class="mail link-site">careers_privacy@hybecorp.com</a></li>
+                    </ul>
+                    
+                </address>
+            </nav>
+
+            <div class="footer-logo">
+                <h2 class="logo"><span class="blind">하단로고</span></h2>
+                <img src="./asset/images/img09.png" alt="하이브로고_포인트">
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© HYBE. All Rights Reserved</p>
+            <a href="" class="link-more">
+                <img src="https://hybecorp.com/images/common/logo-w.svg" alt="하이브로고_화이트">
+            </a>
+        </div>
+    </footer>
+</div>
+
+
+
+</body>
+
+</html>
